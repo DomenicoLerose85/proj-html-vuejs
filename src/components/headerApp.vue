@@ -13,10 +13,13 @@
             src="../assets/corporate-landing/images/header.png"
             alt="header-img"
           />
-        </div>
-        <div class="col-6 d-flex justify-content-start">
           <h1 class="title1">Business Planning</h1>
           <h2 class="title2">Digital technology</h2>
+          <h3 class="title3">Modern Solution !</h3>
+          <p class="sun_strikes">
+            When, while the lovely valley teams with vapour around <br />meand
+            the meridian sun strikes the upper surface.
+          </p>
         </div>
       </div>
     </div>
@@ -34,7 +37,6 @@ export default {
 <style  lang="scss">
 .header {
   width: 100%;
-  // height: 400px;
   background-color: #04174d;
 }
 
@@ -48,7 +50,7 @@ export default {
 .sign {
   width: 80px;
   float: right;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-right: 30px;
   border-radius: 30px;
   color: white;
@@ -59,6 +61,7 @@ export default {
 img {
   width: 550px;
   height: 550px;
+  // float: right;
   margin-left: 470px;
   margin-top: 30px;
 }
@@ -66,11 +69,27 @@ img {
 .title1 {
   color: white;
   font-weight: bold;
-  margin-top: 150px;
+  margin-top: 0px;
+  margin-left: 90px;
 }
 
 .title2 {
   color: white;
-  margin-top: 205px;
+  margin-top: 5px;
+  margin-left: 90px;
+}
+
+.title3 {
+  color: white;
+  margin-top: 5px;
+  margin-left: 90px;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.sun_strikes {
+  margin-top: 20px;
+  margin-left: 90px;
+  color: rgb(26, 26, 172);
 }
 </style>
