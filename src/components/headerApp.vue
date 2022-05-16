@@ -4,7 +4,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <img src="../images/header.png" alt="header-img" />
+            <!-- <img
+              src="./assets/corporate-landing/images/header.png"
+              alt="header-img"
+            /> -->
           </div>
         </div>
       </div>
@@ -14,7 +17,7 @@
 
 <script>
 export default {
-  name: "headerApp",
+  name: "HeaderApp",
   props: {},
 };
 </script>
