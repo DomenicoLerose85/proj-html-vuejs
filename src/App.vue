@@ -2,6 +2,7 @@
   <div id="app">
     <header-app />
     <main-app />
+    <main-app-2 />
     <footer-app />
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import HeaderApp from "./components/HeaderApp.vue";
 import MainApp from "./components/MainApp.vue";
+import MainApp2 from "./components/MainApp2.vue";
 import FooterApp from "./components/FooterApp.vue";
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     HeaderApp,
     MainApp,
+    MainApp2,
     FooterApp,
   },
 };

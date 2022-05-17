@@ -2,12 +2,14 @@
   <div class="header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
+        <div class="col-6">
           <img
             class="logo"
             src="../assets/corporate-landing/images/white-logo-2.png"
             alt="logo"
           />
+        </div>
+        <div class="col-12">
           <button class="sign">Sign In</button>
           <img
             src="../assets/corporate-landing/images/header.png"
@@ -20,6 +22,16 @@
             When, while the lovely valley teams with vapour around <br />meand
             the meridian sun strikes the upper surface.
           </p>
+          <img
+            class="try"
+            src="../assets/corporate-landing/btn-try-now-hover.png"
+            alt="try_btn"
+          />
+          <img
+            class="explore"
+            src="../assets/corporate-landing/btn-explore-hover.png"
+            alt="explore_btn"
+          />
         </div>
       </div>
     </div>
@@ -43,6 +55,7 @@ export default {
 .logo {
   width: 135px;
   height: 65px;
+  float: left;
   margin-left: 90px;
   margin-top: 30px;
 }
@@ -50,7 +63,7 @@ export default {
 .sign {
   width: 80px;
   float: right;
-  margin-top: 40px;
+  margin-top: -55px;
   margin-right: 30px;
   border-radius: 30px;
   color: white;
@@ -61,7 +74,7 @@ export default {
 img {
   width: 550px;
   height: 550px;
-  // float: right;
+  float: right;
   margin-left: 470px;
   margin-top: 30px;
 }
@@ -91,5 +104,21 @@ img {
   margin-top: 20px;
   margin-left: 90px;
   color: rgb(26, 26, 172);
+  font-weight: bold;
+}
+
+.try {
+  width: 150px;
+  height: 80px;
+  margin-right: 860px;
+  margin-bottom: 50px;
+}
+
+.explore {
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  margin-right: 680px;
+  margin-top: -129px;
 }
 </style>
