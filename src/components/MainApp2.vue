@@ -20,8 +20,11 @@
           <h2 class="title3">With Our Strategy</h2>
           <p class="vapour">
             When, while the lovely valley teams with vapour around <br />meand
-            the meridian sun strikes the upper surface.
+            the meridian sun strikes the upper surface.<br />
+            while the lovely valley teams with vapour around.
           </p>
+          <button class="try">Try now</button>
+          <button class="explore">Explore more</button>
         </div>
       </div>
     </div>
@@ -56,6 +59,7 @@ h3 {
 }
 
 h1 {
+  margin-top: 40px;
   color: white;
   font-size: 30px;
   font-weight: bolder;
@@ -67,8 +71,32 @@ h2 {
 }
 
 .vapour {
+  margin-top: 30px;
   color: rgb(26, 26, 172);
   font-weight: bold;
+}
+
+.try {
+  background-color: rgb(190, 61, 162);
+  border: 1px solid rgb(172, 26, 140);
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.explore {
+  background-color: rgb(61, 61, 190);
+  border: 1px solid rgb(26, 26, 172);
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 // .nemoodar {
 //   width: 250px;
