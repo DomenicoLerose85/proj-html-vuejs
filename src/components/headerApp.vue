@@ -9,19 +9,23 @@
             alt="logo"
           />
         </div>
-        <div class="col-12">
+      </div>
+      <div class="row">
+        <div class="col-6">
           <button class="sign">Sign In</button>
           <img
             src="../assets/corporate-landing/images/header.png"
             alt="header-img"
           />
-          <h1 class="title1">Business Planning</h1>
-          <h2 class="title2">Digital technology</h2>
-          <h3 class="title3">Modern Solution !</h3>
-          <p class="sun_strikes">
-            When, while the lovely valley teams with vapour around <br />meand
-            the meridian sun strikes the upper surface.
-          </p>
+        </div>
+        <h1 class="title1">Business Planning</h1>
+        <h2 class="title2">Digital technology</h2>
+        <h3 class="title3">Modern Solution !</h3>
+        <p class="sun_strikes">
+          When, while the lovely valley teams with vapour around <br />meand the
+          meridian sun strikes the upper surface.
+        </p>
+        <div class="buttons">
           <img
             class="try"
             src="../assets/corporate-landing/btn-try-now-hover.png"
@@ -46,7 +50,7 @@ export default {
 </script>
 
 
-<style  lang="scss">
+<style  lang="scss" scoped>
 .header {
   width: 100%;
   background-color: #04174d;
@@ -64,7 +68,7 @@ export default {
   width: 80px;
   float: right;
   margin-top: -55px;
-  margin-right: 30px;
+  margin-right: -510px;
   border-radius: 30px;
   color: white;
   background-color: rgb(38, 38, 230);
@@ -74,34 +78,33 @@ export default {
 img {
   width: 550px;
   height: 550px;
-  float: right;
-  margin-left: 470px;
+  margin-left: 550px;
   margin-top: 30px;
 }
 
 .title1 {
   color: white;
   font-weight: bold;
-  margin-top: 0px;
+  margin-top: -295px;
   margin-left: 90px;
 }
 
 .title2 {
   color: white;
-  margin-top: 5px;
+  margin-top: -230px;
   margin-left: 90px;
 }
 
 .title3 {
   color: white;
-  margin-top: 5px;
+  margin-top: -185px;
   margin-left: 90px;
   font-weight: 900;
   font-size: 35px;
 }
 
 .sun_strikes {
-  margin-top: 20px;
+  margin-top: -120px;
   margin-left: 90px;
   color: rgb(26, 26, 172);
   font-weight: bold;

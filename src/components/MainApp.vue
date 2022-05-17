@@ -25,7 +25,50 @@
               alt="grp247"
             />
             <h3 class="data">Data Analyst</h3>
+            <span
+              >When, while the lovely valley teams with vapour around
+              <br />meand the meridian sun strikes the upper</span
+            >
           </div>
+          <div class="card">
+            <img
+              class="group-538"
+              src="../assets/corporate-landing/images/Group-538.png"
+              alt="grp247"
+            />
+            <h3 class="data">SEO Optimizzation</h3>
+            <span
+              >When, while the lovely valley teams with vapour around
+              <br />meand the meridian sun strikes the upper</span
+            >
+          </div>
+          <div class="card">
+            <img
+              class="group-566"
+              src="../assets/corporate-landing/images/Group-566.png"
+              alt="grp247"
+            />
+            <h3 class="data">Security Data</h3>
+            <span
+              >When, while the lovely valley teams with vapour around
+              <br />meand the meridian sun strikes the upper</span
+            >
+          </div>
+          <div class="card">
+            <img
+              class="group-567"
+              src="../assets/corporate-landing/images/Group-567.png"
+              alt="grp247"
+            />
+            <h3 class="data">Branding Strategy</h3>
+            <span
+              >When, while the lovely valley teams with vapour around
+              <br />meand the meridian sun strikes the upper</span
+            >
+          </div>
+        </div>
+        <div class="service_btn">
+          <button class="services">View All Services</button>
         </div>
       </div>
     </div>
@@ -38,7 +81,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .red-h3 {
   text-align: center;
   color: red;
@@ -56,12 +99,18 @@ export default {
 }
 
 .card {
-  width: 100px;
+  width: 120px;
+  border: none;
+  display: inline-flex;
+  margin-right: 20px;
+  margin-left: 70px;
+  margin-top: 40px;
 }
 
 .group-247 {
-  width: 95px;
+  width: 100px;
   height: 80px;
+  padding-left: 10px;
 }
 
 .data {
@@ -69,5 +118,42 @@ export default {
   padding-top: 20px;
   font-weight: 900;
   font-size: 12px;
+}
+
+span {
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.group-538 {
+  width: 100px;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.group-566 {
+  width: 100px;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.group-567 {
+  width: 100px;
+  height: 80px;
+  padding-left: 10px;
+}
+
+.services {
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  background-color: rgb(243, 166, 179);
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  border-color: pink;
 }
 </style>
