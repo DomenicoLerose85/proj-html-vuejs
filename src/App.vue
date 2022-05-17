@@ -4,6 +4,7 @@
     <main-app />
     <main-app-2 />
     <main-app-3 />
+    <main-app-4 />
     <footer-app />
   </div>
 </template>
@@ -13,6 +14,7 @@ import HeaderApp from "./components/HeaderApp.vue";
 import MainApp from "./components/MainApp.vue";
 import MainApp2 from "./components/MainApp2.vue";
 import MainApp3 from "./components/MainApp3.vue";
+import MainApp4 from "./components/MainApp4.vue";
 import FooterApp from "./components/FooterApp.vue";
 
 export default {
@@ -22,6 +24,7 @@ export default {
     MainApp,
     MainApp2,
     MainApp3,
+    MainApp4,
     FooterApp,
   },
 };

@@ -60,7 +60,9 @@ export default {
 .books,
 .phones,
 .book {
+  margin-left: 20px;
   margin-top: 50px;
+  margin-bottom: 100px;
   width: 300px;
   height: 250px;
   border-radius: 20px;
