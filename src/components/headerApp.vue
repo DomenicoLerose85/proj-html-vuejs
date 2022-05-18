@@ -86,26 +86,26 @@ img {
   color: white;
   font-weight: bold;
   margin-top: -295px;
-  margin-left: 90px;
+  margin-left: 0px;
 }
 
 .title2 {
   color: white;
   margin-top: -230px;
-  margin-left: 90px;
+  margin-left: 2px;
 }
 
 .title3 {
   color: white;
   margin-top: -185px;
-  margin-left: 90px;
+  margin-left: 2px;
   font-weight: 900;
   font-size: 35px;
 }
 
 .sun_strikes {
   margin-top: -120px;
-  margin-left: 90px;
+  margin-left: 4px;
   color: rgb(26, 26, 172);
   font-weight: bold;
 }
@@ -113,7 +113,7 @@ img {
 .try {
   width: 150px;
   height: 80px;
-  margin-right: 860px;
+  margin-right: 260px;
   margin-bottom: 50px;
 }
 

@@ -1,10 +1,10 @@
 <template>
-  <div class="section4">
+  <div class="section5">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <h5 class="price">Price list</h5>
-          <h2 class="pricing">Our Pricing</h2>
+          <h5 class="blog">Blog</h5>
+          <h2 class="posts">Latest Posts</h2>
           <p>
             When, while the lovely valley teams with vapour around meand the
             meridian sun strikes <br />
@@ -12,48 +12,38 @@
           </p>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-4 designing"></div>
-      </div> -->
+      <div class="row">
+        <div class="col-6"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MainApp4",
+  name: "MainApp5",
 };
 </script>
 
 <style lang="scss" scoped>
-.section4 {
-  width: 100%;
-  height: 500px;
-  background-color: #04174d;
-}
-
-.price {
+.blog {
   color: rgb(240, 39, 39);
   text-align: center;
   font-size: 10px;
   margin-top: 30px;
 }
 
-.pricing {
-  color: white;
+.posts {
+  color: black;
   text-align: center;
   margin-top: 10px;
   font-weight: bold;
 }
 
 p {
-  color: white;
+  color: grey;
+  font-weight: 800;
   text-align: center;
   font-size: 10px;
-}
-
-.designing {
-  width: 100px;
-  background-color: white;
 }
 </style>
