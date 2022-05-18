@@ -60,11 +60,24 @@ export default {
 .books,
 .phones,
 .book {
-  margin-left: 20px;
+  margin-left: 45px;
   margin-top: 50px;
   margin-bottom: 100px;
   width: 300px;
   height: 250px;
   border-radius: 20px;
+}
+
+.books:hover {
+  width: 350px;
+  height: 300px;
+}
+.phones:hover {
+  width: 350px;
+  height: 300px;
+}
+.book:hover {
+  width: 350px;
+  height: 300px;
 }
 </style>

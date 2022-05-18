@@ -71,8 +71,12 @@ export default {
   margin-right: -510px;
   border-radius: 30px;
   color: white;
-  background-color: rgb(38, 38, 230);
+  background-color: #1465a0;
   border-color: blue;
+}
+
+.sign:hover {
+  background-color: #d3406d;
 }
 
 img {

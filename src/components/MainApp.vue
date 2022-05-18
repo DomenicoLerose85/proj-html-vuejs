@@ -150,10 +150,15 @@ span {
   margin-top: 100px;
   margin-left: 400px;
   margin-bottom: 100px;
-  background-color: rgb(243, 166, 179);
+  background-color: #c3306d;
   color: white;
   font-size: 15px;
   border-radius: 30px;
-  border-color: pink;
+  border-color: #c3306d;
+}
+
+.services:hover {
+  background-color: #1465a0;
+  border-color: #1465a0;
 }
 </style>

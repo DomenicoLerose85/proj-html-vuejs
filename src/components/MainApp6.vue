@@ -118,6 +118,11 @@ export default {
   margin-top: 30px;
 }
 
+.testimonial:hover {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .people {
   color: black;
   text-align: center;
@@ -138,6 +143,11 @@ p {
   margin-top: -30px;
   border: 4px solid rgb(240, 44, 77);
   border-radius: 50%;
+}
+
+.people1:hover {
+  width: 150px;
+  height: 150px;
 }
 
 p {

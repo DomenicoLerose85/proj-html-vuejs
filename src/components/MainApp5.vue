@@ -82,6 +82,11 @@ export default {
   margin-top: 30px;
 }
 
+.blog:hover {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .posts {
   color: black;
   text-align: center;

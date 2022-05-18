@@ -17,6 +17,13 @@
         </div>
       </div>
     </div>
+    <!-- <div class="bottom-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"></div>
+        </div>
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -30,8 +37,8 @@ export default {
 .upper-footer {
   width: 1300px;
   height: 200px;
+  border-radius: 30px;
   background-color: #d3406d;
-  border: 1px solid black;
 }
 
 .awesome {
@@ -77,5 +84,11 @@ export default {
   margin-right: 200px;
   color: rgb(163, 162, 162);
   font-size: 20px;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
 }
 </style>

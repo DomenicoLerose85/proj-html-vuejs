@@ -39,6 +39,11 @@ export default {
   margin-top: 30px;
 }
 
+.price:hover {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .pricing {
   color: white;
   text-align: center;

@@ -77,8 +77,10 @@ h2 {
 }
 
 .try {
-  background-color: rgb(190, 61, 162);
-  border: 1px solid rgb(172, 26, 140);
+  width: 100px;
+  height: 35px;
+  background-color: #e44f6c;
+  border: 1px solid #e44f6c;
   text-align: center;
   color: white;
   font-weight: 300;
@@ -88,7 +90,14 @@ h2 {
   margin-left: 30px;
 }
 
+.try:hover {
+  background-color: rgb(61, 61, 190);
+  border: 1px solid rgb(26, 26, 172);
+}
+
 .explore {
+  width: 200px;
+  height: 35px;
   background-color: rgb(61, 61, 190);
   border: 1px solid rgb(26, 26, 172);
   text-align: center;
@@ -98,6 +107,12 @@ h2 {
   margin-top: 25px;
   margin-bottom: 50px;
 }
+
+.explore:hover {
+  background-color: #e44f6c;
+  border: 1px solid #e44f6c;
+}
+
 // .nemoodar {
 //   width: 250px;
 //   height: 300px;
