@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>I'm the footer</h1>
+    <h1>I</h1>
   </div>
 </template>
 
