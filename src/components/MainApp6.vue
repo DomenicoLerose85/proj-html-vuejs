@@ -163,10 +163,12 @@ p {
 .jr {
   text-align: center;
   margin-left: 150px;
+  margin-bottom: 60px;
 }
 
 .sweety {
   margin-left: 120px;
   margin-top: 5px;
+  margin-bottom: 60px;
 }
 </style>
