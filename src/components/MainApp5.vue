@@ -130,8 +130,10 @@ p {
 }
 
 .read-more {
+  width: 100px;
   background-color: white;
-  color: black;
+  border-color: white;
+  color: rgb(83, 83, 83);
   position: absolute;
   left: 300px;
   border-radius: 30px;
@@ -144,7 +146,7 @@ p {
   display: inline-block;
   background-color: #04174d;
   border-radius: 30px;
-  margin-left: -210px;
+  margin-left: -100px;
   margin-top: 30px;
 }
 
@@ -178,20 +180,24 @@ p {
 }
 
 .read-more2 {
+  width: 100px;
   background-color: white;
-  color: black;
+  border-color: white;
+  color: rgb(83, 83, 83);
   position: absolute;
-  left: 500px;
+  left: 610px;
   border-radius: 30px;
   font-weight: 100;
   margin-top: 20px;
 }
 
 .read-more3 {
+  width: 100px;
   background-color: white;
-  color: black;
+  border-color: white;
+  color: rgb(83, 83, 83);
   position: absolute;
-  left: 800px;
+  left: 910px;
   border-radius: 30px;
   font-weight: 100;
   margin-top: 20px;

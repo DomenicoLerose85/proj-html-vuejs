@@ -6,10 +6,6 @@
           <h4 class="portfolio">Portfolio</h4>
           <h2 class="latest-work">latest work</h2>
         </div>
-        <div class="col-6">
-          <span><i class="fa-regular fa-circle-arrow-left"></i></span>
-          <span></span>
-        </div>
       </div>
       <div class="row">
         <div class="col-4">
@@ -18,6 +14,7 @@
             src="../assets/corporate-landing/images/8wa60okr-1-790x576.jpg"
             alt=""
           />
+          <h2 class="basket">Basket of flower on table</h2>
         </div>
         <div class="col-4">
           <img
@@ -25,6 +22,7 @@
             src="../assets/corporate-landing/images/84316050-0af0-49db-a53a-241d47ddad0e-2-790x576.jpg"
             alt=""
           />
+          <h2 class="basket">Purinky products</h2>
         </div>
         <div class="col-4">
           <img
@@ -32,6 +30,7 @@
             src="../assets/corporate-landing/images/a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg"
             alt=""
           />
+          <h2 class="basket">Satisfy poster</h2>
         </div>
       </div>
     </div>
@@ -55,6 +54,14 @@ export default {
 .latest-work {
   font-weight: 500;
   margin-left: 20px;
+}
+
+.basket {
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 45px;
+  margin-bottom: 100px;
+  margin-top: -80px;
 }
 
 .books,

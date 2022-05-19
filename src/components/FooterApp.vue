@@ -64,6 +64,7 @@ export default {
   margin-top: -100px;
   margin-right: 20px;
   border-radius: 30px;
+  border-color: white;
 }
 
 .email-subscribe {

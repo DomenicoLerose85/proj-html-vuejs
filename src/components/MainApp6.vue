@@ -139,7 +139,7 @@ p {
 .people1 {
   width: 120px;
   height: 120px;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: -30px;
   border: 4px solid rgb(240, 44, 77);
   border-radius: 50%;

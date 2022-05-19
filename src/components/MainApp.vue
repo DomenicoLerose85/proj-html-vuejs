@@ -148,7 +148,7 @@ span {
 
 .services {
   margin-top: 100px;
-  margin-left: 400px;
+  margin-left: 435px;
   margin-bottom: 100px;
   background-color: #c3306d;
   color: white;

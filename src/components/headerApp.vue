@@ -25,18 +25,20 @@
           When, while the lovely valley teams with vapour around <br />meand the
           meridian sun strikes the upper surface.
         </p>
-        <div class="buttons">
-          <img
-            class="try"
-            src="../assets/corporate-landing/btn-try-now-hover.png"
-            alt="try_btn"
-          />
-          <img
-            class="explore"
-            src="../assets/corporate-landing/btn-explore-hover.png"
-            alt="explore_btn"
-          />
-        </div>
+        <!-- <div class="col-12">
+          <div class="buttons">
+            <img
+              class="try"
+              src="../assets/corporate-landing/btn-try-now-hover.png"
+              alt="try_btn"
+            />
+            <img
+              class="explore"
+              src="../assets/corporate-landing/btn-explore-hover.png"
+              alt="explore_btn"
+            />
+          </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -58,16 +60,16 @@ export default {
 
 .logo {
   width: 135px;
-  height: 65px;
+  height: 60px;
   float: left;
-  margin-left: 90px;
+  margin-left: 5px;
   margin-top: 30px;
 }
 
 .sign {
   width: 80px;
   float: right;
-  margin-top: -55px;
+  margin-top: -50px;
   margin-right: -510px;
   border-radius: 30px;
   color: white;
@@ -84,6 +86,7 @@ img {
   height: 550px;
   margin-left: 550px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .title1 {
