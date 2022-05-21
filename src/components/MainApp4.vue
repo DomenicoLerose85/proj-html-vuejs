@@ -57,8 +57,8 @@ p {
   font-size: 10px;
 }
 
-.designing {
-  width: 100px;
-  background-color: white;
-}
+// .designing {
+//   width: 100px;
+//   background-color: white;
+// }
 </style>

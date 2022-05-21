@@ -147,6 +147,8 @@ span {
 }
 
 .services {
+  width: 150px;
+  height: 45px;
   margin-top: 100px;
   margin-left: 435px;
   margin-bottom: 100px;
@@ -154,7 +156,7 @@ span {
   color: white;
   font-size: 15px;
   border-radius: 30px;
-  border-color: #c3306d;
+  border-color: #c42869;
 }
 
 .services:hover {

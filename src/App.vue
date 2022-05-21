@@ -33,6 +33,11 @@ export default {
     MainApp6,
     FooterApp,
   },
+  data() {
+    return {
+      headerList: ["Home", "About", "Services", "Blog", "COntact", "Portfolio"],
+    };
+  },
 };
 </script>
 

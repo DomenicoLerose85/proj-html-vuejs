@@ -9,6 +9,17 @@
             alt="logo"
           />
         </div>
+        <nav>
+          <ul>
+            <li
+              v-for="(item, index) in links"
+              :key="index"
+              :class="{ selected: item.active }"
+            >
+              {{ item.testo }}
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="row">
         <div class="col-6">
@@ -47,7 +58,42 @@
 <script>
 export default {
   name: "HeaderApp",
-  props: {},
+  data() {
+    return {
+      links: [
+        {
+          testo: "Home",
+          link: "#",
+          active: true,
+        },
+        {
+          testo: "About",
+          link: "#",
+          active: false,
+        },
+        {
+          testo: "Services",
+          link: "#",
+          active: false,
+        },
+        {
+          testo: "Blog",
+          link: "#",
+          active: false,
+        },
+        {
+          testo: "Contact",
+          link: "#",
+          active: false,
+        },
+        {
+          testo: "Portfolio",
+          link: "#",
+          active: false,
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -66,10 +112,27 @@ export default {
   margin-top: 30px;
 }
 
+ul {
+  display: flex;
+  margin-left: 400px;
+}
+
+li {
+  margin-top: -111px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+}
+
 .sign {
-  width: 80px;
+  width: 100px;
+  height: 40px;
   float: right;
-  margin-top: -50px;
+  margin-top: -93px;
   margin-right: -510px;
   border-radius: 30px;
   color: white;
@@ -79,6 +142,7 @@ export default {
 
 .sign:hover {
   background-color: #d3406d;
+  border-color: #ca2658;
 }
 
 img {
